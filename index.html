@@ -1,69 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Shahid Room</title>
+    <title>Shahid Premium Rooms - Latur</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #1e3c72;
             color: white;
+            padding: 20px;
             text-align: center;
         }
 
-        .container {
-            padding: 50px 20px;
+        header h1 {
+            margin: 0;
         }
 
-        h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 18px;
-            opacity: 0.9;
+        .section {
+            padding: 40px 20px;
+            text-align: center;
         }
 
         .btn {
             display: inline-block;
-            margin-top: 25px;
+            margin: 10px;
             padding: 12px 25px;
-            font-size: 18px;
-            color: #2a5298;
-            background: white;
-            border-radius: 30px;
+            font-size: 16px;
+            color: white;
+            background: #2a5298;
+            border-radius: 25px;
             text-decoration: none;
-            transition: 0.3s;
         }
 
         .btn:hover {
-            background: #ffcc00;
-            color: black;
+            background: #1e3c72;
+        }
+
+        .amenities p {
+            margin: 8px 0;
+        }
+
+        .gallery img {
+            width: 90%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
         }
 
         footer {
-            margin-top: 60px;
+            background: #1e3c72;
+            color: white;
             padding: 20px;
-            font-size: 14px;
-            opacity: 0.8;
+            text-align: center;
         }
 
-        /* Mobile Responsive */
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 28px;
-            }
-
-            p {
-                font-size: 16px;
-            }
-
-            .btn {
-                font-size: 16px;
-                padding: 10px 20px;
+        @media (min-width: 768px) {
+            .gallery img {
+                width: 250px;
             }
         }
     </style>
@@ -71,15 +71,42 @@
 
 <body>
 
-    <div class="container">
-        <h1>Welcome to Shahid Room</h1>
-        <p>This is my awesome website hosted on GitHub Pages 🚀</p>
-        <a href="#" class="btn">Explore More</a>
-    </div>
+<header>
+    <h1>Shahid Premium Rooms</h1>
+    <p>Latur - Comfortable & Affordable Rooms</p>
+</header>
 
-    <footer>
-        © 2026 Shahid | Made with ❤️
-    </footer>
+<div class="section">
+    <h2>Book Your Room Today</h2>
+    <a href="tel:9860552972" class="btn">📞 Call Now</a>
+    <a href="https://wa.me/919860552972" class="btn">💬 WhatsApp</a>
+</div>
+
+<div class="section amenities">
+    <h2>Our Amenities</h2>
+    <p>✔ 24/7 Water Supply</p>
+    <p>✔ Free WiFi</p>
+    <p>✔ Parking Facility</p>
+    <p>✔ Clean & Spacious Rooms</p>
+    <p>✔ Peaceful Environment</p>
+</div>
+
+<div class="section gallery">
+    <h2>Room Gallery</h2>
+    <img src="https://via.placeholder.com/300x200" alt="Room Image">
+    <img src="https://via.placeholder.com/300x200" alt="Room Image">
+    <img src="https://via.placeholder.com/300x200" alt="Room Image">
+</div>
+
+<div class="section">
+    <h2>Contact Us</h2>
+    <p>📍 Anjali Nagar, Near Abdul Rehman Masjid, Latur</p>
+    <p>📞 9860552972</p>
+</div>
+
+<footer>
+    © 2026 Shahid Premium Rooms | All Rights Reserved
+</footer>
 
 </body>
 </html>
